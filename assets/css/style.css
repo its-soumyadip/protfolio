@@ -251,7 +251,7 @@ a:hover {
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px #0078ff;
+  box-shadow: 0 0 0 6px #0078ff;
   display: block;
 }
 
@@ -337,6 +337,9 @@ a:hover {
 @media (max-width: 768px) {
   .back-to-top {
     bottom: 15px;
+  }
+  .my-email {
+    font-size: px !important;
   }
 }
 
@@ -892,7 +895,7 @@ background: linear-gradient(90deg, rgba(205,25,133,1) 0%, rgba(15,27,255,1) 100%
   background-color: #fff;
 }
 
-.work-box:hover img {
+.work-box:hover .work-img img {
   transform: scale(1.3);
 }
 
@@ -1054,8 +1057,6 @@ background: linear-gradient(90deg, rgba(205,25,133,1) 0%, rgba(15,27,255,1) 100%
 
 .testimonial-box .comit {
   font-size: 2rem;
-  color: #0078ff;
-  background-color: #fff;
   width: 52px;
   height: 52px;
   display: block;
